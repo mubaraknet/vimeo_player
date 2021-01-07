@@ -17,14 +17,14 @@ class VimeoPlayer extends StatefulWidget {
   final Color iconColor;
   final Color themeColor;
 
-  static const col = Color(0xFF22A3D2);
+  static const col = Color(0xffFFD80E);
 
   VimeoPlayer({
     @required this.id,
     this.autoPlay,
     this.looping,
     this.position,
-    Key key, this.fullScreenBackgroundColor=Colors.black, this.iconColor=Colors.white, this.themeColor=col,
+    Key key, this.fullScreenBackgroundColor=Colors.black, this.iconColor=col, this.themeColor=col,
   }) : super(key: key);
 
   @override
